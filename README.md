@@ -4,7 +4,7 @@
 
 Tarang is an AI-powered decision intelligence platform that helps e-commerce businesses understand the ripple effects of strategic decisions before implementation. By simulating changes in variables such as pricing, delivery time, marketing spend, and inventory, Tarang predicts their impact on business performance as well as customer trust, seller health, sustainability, and operational risk.
 
-> **Note:** This project is a frontend prototype built for a hackathon. All AI outputs, simulations, and analytics are generated using realistic mock data for demonstration purposes.
+> **Note:** This project is a frontend prototype. All AI outputs, simulations, and analytics are generated using realistic mock data for demonstration purposes.
 
 ## Features
 
