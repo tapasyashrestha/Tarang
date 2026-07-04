@@ -1,32 +1,73 @@
-# React + TypeScript + Vite
+# Tarang
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**See every ripple before you make the wave.**
 
-Currently, two official plugins are available:
+Tarang is an AI-powered decision intelligence platform that helps e-commerce businesses understand the ripple effects of strategic decisions before implementation. By simulating changes in variables such as pricing, delivery time, marketing spend, and inventory, Tarang predicts their impact on business performance as well as customer trust, seller health, sustainability, and operational risk.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> **Note:** This project is a frontend prototype built for a hackathon. All AI outputs, simulations, and analytics are generated using realistic mock data for demonstration purposes.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Interactive dependency network visualization
+- Scenario configuration with adjustable business variables
+- Simulated AI consequence modeling
+- Ripple-effect visualization across interconnected metrics
+- Marketplace Health Score and Ethical Risk assessment
+- AI-generated strategic recommendations
+- Executive summary for decision-makers
+- Responsive, modern analytics dashboard
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- D3.js
+- Recharts
+- Framer Motion
+- Lucide React
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Getting Started
+
+```bash
+git clone https://github.com/yourusername/tarang.git
+
+cd tarang
+
+npm install
+
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Build
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+├── components/
+├── pages/
+├── data/
+├── hooks/
+├── utils/
+├── assets/
+└── main.tsx
+```
+
+## Future Scope
+
+- Real causal inference models
+- Machine learning–based prediction engine
+- Live data integration
+- Scenario comparison and collaboration
+- Multi-industry support beyond e-commerce
+
+## License
+
+This project was developed as part of a hackathon and is intended for demonstration and educational purposes.
